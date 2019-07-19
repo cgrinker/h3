@@ -21,7 +21,7 @@ genrule(
 
 cc_library(
   name = "h3",
-  visibility = ["//visibility:public"]
+  visibility = ["//visibility:public"],
   includes = [
     "src/h3lib/include"
   ],
